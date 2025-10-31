@@ -17,9 +17,10 @@ In this lab, you learned about the basic building block of sequential circuits: 
 ## Lab Questions
 
 ###  Why can we not just use structural Verilog to implement latches?
-* Because it will result to an error when synthesizing because of a combinatorial loop.
+* Because it will result to an error when synthesizing due to a combinatorial loop.
 
 ### What is the meaning of always @(*) in a sensitivity block?
-* 
+* It is used to infinitely run the contents within it based on the parameters within the parentheses.
 
 ### What importance is memory to digital circuits?
+* It is so that the output can persist even when the input aren't in the circuit anymore. 
