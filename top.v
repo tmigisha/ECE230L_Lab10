@@ -15,7 +15,8 @@ module top (
         .data(sw[15:8]),
         .store(sw[7:6]),
         .addr(btnC),
-        .memory(led)
+        .memory(led[15:8])
     );
+
 
 endmodule
